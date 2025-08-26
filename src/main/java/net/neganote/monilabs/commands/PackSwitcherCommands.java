@@ -14,21 +14,22 @@ import com.mojang.brigadier.CommandDispatcher;
 import static net.minecraft.commands.Commands.*;
 
 public class PackSwitcherCommands {
+    public static String cwd = System.getProperty("user.dir");
 
     public static int switchToNormal() {
-        PackSwitchUtil.switchToNormal(System.getProperty("user.dir"));
+        PackSwitchUtil.switchToNormal(cwd);
         stopMinecraft();
         return 0;
     }
 
     public static int switchToHard() {
-        PackSwitchUtil.switchToHard(System.getProperty("user.dir"));
+        PackSwitchUtil.switchToHard(cwd);
         stopMinecraft();
         return 0;
     }
 
     public static int switchToExpert() {
-        PackSwitchUtil.switchToExpert(System.getProperty("user.dir"));
+        PackSwitchUtil.switchToExpert(cwd);
         stopMinecraft();
         return 0;
     }
