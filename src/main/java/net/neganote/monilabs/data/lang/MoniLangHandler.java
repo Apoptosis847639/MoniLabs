@@ -108,6 +108,17 @@ public class MoniLangHandler {
                 "§7Can §fperfectly overclock§7 lower projector §ftier§7 missions §fonce§7 for each §ftier§7 above the §frequired§7 mission tier.",
                 "§7Some missions are §fexempt§7 from being able to be §fparalleled§7.");
 
+        provider.add("tooltip.monilabs.large_lapotronic_generator.flavor", "Crystal Structure Exploitation Engine");
+        provider.add("tooltip.monilabs.extreme_lapotronic_generator.flavor",
+                "Ordered Molecular Array Potential Extractor");
+
+        provider.add("tooltip.monilabs.lapotronic_generator.quantum_flux_usage",
+                "§7Uses 12 Quantum Flux per hour while working§r");
+        provider.add("tooltip.monilabs.large_lapotronic_generator.primal_mana_usage",
+                "§7Supply 24 mB/min Primal Mana to produce up to 6144 EU/t at 2x fuel consumption§r");
+        provider.add("tooltip.monilabs.extreme_lapotronic_generator.primal_mana_usage",
+                "§7Supply 60 mB/min Primal Mana to produce up to 32768 EU/t at 4x fuel consumption§r");
+
         provider.add("monilabs.failure_reason.improper_xp", "XP buffer is outside necessary range");
         provider.add("monilabs.failure_reason.insufficient_projector_tier", "Insufficient Projector Tier");
 

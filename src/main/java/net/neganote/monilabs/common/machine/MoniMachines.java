@@ -748,6 +748,10 @@ public class MoniMachines {
                     .build())
             .workableCasingModel(GTCEu.id("block/casings/solid/machine_casing_stable_titanium"),
                     GTCEu.id("block/multiblock/generator/large_combustion_engine"))
+            .tooltips(Component.translatable("tooltip.monilabs.large_lapotronic_generator.flavor"),
+                    Component.translatable("gtceu.universal.tooltip.base_production_eut", V[EV]),
+                    Component.translatable("tooltip.monilabs.lapotronic_generator.quantum_flux_usage"),
+                    Component.translatable("tooltip.monilabs.large_lapotronic_generator.primal_mana_usage"))
             .register();
 
     public static MultiblockMachineDefinition EXTREME_LAPOTRONIC_GENERATOR = REGISTRATE
@@ -774,6 +778,10 @@ public class MoniMachines {
                     .build())
             .workableCasingModel(GTCEu.id("block/casings/solid/machine_casing_robust_tungstensteel"),
                     GTCEu.id("block/multiblock/generator/large_combustion_engine"))
+            .tooltips(Component.translatable("tooltip.monilabs.extreme_lapotronic_generator.flavor"),
+                    Component.translatable("gtceu.universal.tooltip.base_production_eut", V[EV]),
+                    Component.translatable("tooltip.monilabs.lapotronic_generator.quantum_flux_usage"),
+                    Component.translatable("tooltip.monilabs.extreme_lapotronic_generator.primal_mana_usage"))
             .register();
 
     // MAX stuff
