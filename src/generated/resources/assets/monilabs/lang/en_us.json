@@ -253,7 +253,7 @@
   "tooltip.monilabs.elite_microverse_projector.description.1": "§7Can §fperfectly overclock§7 lower projector §ftier§7 missions §fonce§7 for each §ftier§7 above the §frequired§f mission tier.",
   "tooltip.monilabs.elite_microverse_projector.description.2": "§7Can also host §fshattered§7 and §fcorrupted§7 microverses.",
   "tooltip.monilabs.extreme_lapotronic_generator.flavor": "Ordered Molecular Array Potential Extractor",
-  "tooltip.monilabs.extreme_lapotronic_generator.primal_mana_usage": "§7Supply 60 mB/min Primal Mana to produce up to 32768 EU/t at 4x fuel consumption§r",
+  "tooltip.monilabs.extreme_lapotronic_generator.primal_mana_usage": "§7Supply 60 mB/min Primal Mana to produce up to 32768 EU/t at 2x fuel consumption§r",
   "tooltip.monilabs.hostile_microverse.0": "§7Hostile microverses are also available.",
   "tooltip.monilabs.hostile_microverse.1": "§7All hostile missions restore §fintegrity§7, required for the microverse to stay active.",
   "tooltip.monilabs.hyperbolic_microverse_projector.description.0": "§7An §Iepic machine capable of projecting %s §7for hundreds of missions at once.",

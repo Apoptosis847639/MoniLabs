@@ -117,7 +117,7 @@ public class MoniLangHandler {
         provider.add("tooltip.monilabs.large_lapotronic_generator.primal_mana_usage",
                 "§7Supply 24 mB/min Primal Mana to produce up to 6144 EU/t at 2x fuel consumption§r");
         provider.add("tooltip.monilabs.extreme_lapotronic_generator.primal_mana_usage",
-                "§7Supply 60 mB/min Primal Mana to produce up to 32768 EU/t at 4x fuel consumption§r");
+                "§7Supply 60 mB/min Primal Mana to produce up to 32768 EU/t at 2x fuel consumption§r");
 
         provider.add("monilabs.failure_reason.improper_xp", "XP buffer is outside necessary range");
         provider.add("monilabs.failure_reason.insufficient_projector_tier", "Insufficient Projector Tier");
