@@ -857,6 +857,7 @@ public class MoniMachines {
                         .recipeModifier(SimpleGeneratorMachine::recipeModifier, true)
                         .addOutputLimit(ItemRecipeCapability.CAP, 0).addOutputLimit(FluidRecipeCapability.CAP, 0)
                         .simpleGeneratorModel(MoniLabs.id("block/generators/" + name))
+                        .tooltips(workableTiered(tier, V[tier], V[tier] * 64L, recipeType, 0, false))
                         .register(),
                 tiers);
     }
