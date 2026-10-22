@@ -114,11 +114,11 @@ public class MoniLangHandler {
                 "Ordered Molecular Array Potential Extractor");
 
         provider.add("tooltip.monilabs.lapotronic_generator.quantum_flux_usage",
-                "§7Uses §f12 §6Quantum Flux §fper hour §7while working§r");
+                "§fUses 12 §6Quantum Flux §fper hour §7while working§r");
         provider.add("tooltip.monilabs.large_lapotronic_generator.primal_mana_usage",
-                "§7Supply §f24 mB/min §7of §6Primal Mana §7to produce up to §f6144 EU/t §7at §f2x §7fuel consumption§r");
+                "§fSupply 24 mB/min §7of §6Primal Mana §7to produce up to §f6144 EU/t §7at §f2x §7fuel consumption§r");
         provider.add("tooltip.monilabs.extreme_lapotronic_generator.primal_mana_usage",
-                "§7Supply §f60 mB/min §7of §6Primal Mana §7to produce up to §f32768 EU/t §7at §f2x §7fuel consumption§r");
+                "§fSupply 60 mB/min §7of §6Primal Mana §7to produce up to §f32768 EU/t §7at §f2x §7fuel consumption§r");
 
         provider.add("monilabs.failure_reason.improper_xp", "XP buffer is outside necessary range");
         provider.add("monilabs.failure_reason.insufficient_projector_tier", "Insufficient Projector Tier");
