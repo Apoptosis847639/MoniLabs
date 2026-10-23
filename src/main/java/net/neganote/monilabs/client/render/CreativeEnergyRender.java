@@ -105,7 +105,7 @@ public class CreativeEnergyRender extends DynamicRender<CreativeEnergyMultiMachi
 
     @Override
     public int getViewDistance() {
-        return 256;
+        return 65536;
     }
 
     @Override
